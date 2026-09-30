@@ -1,0 +1,6 @@
+# built output: the Docker image (and `node build-site.js`) makes it fresh
+dist/
+node_modules/
+.DS_Store
+Thumbs.db
+*.log

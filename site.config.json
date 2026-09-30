@@ -1,0 +1,146 @@
+{
+  "studio": "Tiny Tantrum Games",
+  "domain": "tinytantrumgames.com",
+  "tagline": "Tiny games. Big tantrums.",
+  "intro": "We make small, silly phone games you can learn in five seconds and lose to in thirty. No accounts needed. Just one more try.",
+  "owner": "",
+  "country": "Nepal",
+  "email": "hello@tinytantrumgames.com",
+  "admobPublisherId": "pub-XXXXXXXXXXXXXXXX",
+  "googlePlayDeveloperUrl": "",
+  "policyUpdated": "2026-09-28",
+  "games": [
+    {
+      "slug": "snack-stuck",
+      "name": "Snack Stuck",
+      "storeName": "Snack Stuck: Vending Machine",
+      "tagline": "Your snack is stuck. Rock the machine free, and try not to get squished.",
+      "description": [
+        "You paid. You pressed the button. Your snack got stuck. Meet Vendy, the smuggest vending machine alive, and rock him back and forth until the snack drops.",
+        "Tap in rhythm to build combos, watch the tilt meter, and stop before the red zone, or Vendy falls on you. Every squish can be replayed in slow motion and shared."
+      ],
+      "features": [
+        "One thumb, 30-second runs",
+        "8 worlds, from an office to a space station",
+        "6 players, including Grandma and The Cat",
+        "37 snacks and rare items to collect",
+        "Instant replay of your best squish"
+      ],
+      "icon": "assets/img/snack-stuck-icon.webp",
+      "hero": "assets/img/snack-stuck-feature.webp",
+      "banner": "assets/img/snack-stuck-feature.webp",
+      "shareImage": "assets/img/snack-stuck-share.jpg",
+      "video": "assets/video/snack-stuck-demo.mp4",
+      "videoPoster": "assets/video/snack-stuck-demo-poster.jpg",
+      "videoCaption": "Rock Vendy in rhythm, grab the golden snacks, and stop before he tips over. Real gameplay, recorded straight from the game.",
+      "accent": "#FF4B3E",
+      "packageId": "com.snackstuck.game",
+      "playUrl": "",
+      "status": "coming-soon",
+      "age": "13+",
+      "platforms": "Android",
+      "extraPrivacy": "If you tap \"Share clip\", the game makes a short video of your last run on your device and hands it to the app you pick (for example WhatsApp or TikTok). We never upload clips ourselves.",
+      "faq": [
+        [
+          "I lost my progress.",
+          "Progress is saved only on your phone. Uninstalling the game or clearing its data deletes it, and we cannot restore it."
+        ],
+        [
+          "The ad for a revive didn't give me anything.",
+          "The reward is given when the ad finishes. If you close it early or it fails to load, try again in a moment."
+        ],
+        [
+          "Can I play offline?",
+          "Yes. Ads need a connection, but the game itself works offline."
+        ]
+      ],
+      "accounts": "None needed",
+      "progress": "Saved on your phone only",
+      "dataTable": null,
+      "notifications": false,
+      "deleteByEmail": false
+    },
+    {
+      "slug": "color-pour",
+      "name": "Color Pour",
+      "storeName": "Color Pour",
+      "tagline": "Draw chalk ramps, guide the falling sand, and fill every jar with the right color.",
+      "description": [
+        "Colored sand pours from the spouts. Draw chalk ramps to guide it into the matching jars, and keep the colors apart. One wrong grain makes mud, and the jar gets sick.",
+        "New tricks keep arriving: dye tubes that turn white sand red, fans that blow it sideways, gates you open at the right moment, portals, bounce pads and jars that ride a conveyor belt. Solve the daily pour for a week of prizes, and spend the drops you earn in the Lab Shop."
+      ],
+      "features": [
+        "Draw a line, watch the sand flow",
+        "Dyes, fans, gates, portals and bounce pads",
+        "94 levels across 11 chapters",
+        "A daily puzzle with 7-day prizes",
+        "Earn drops and shop for chalk, sand and lab themes"
+      ],
+      "icon": "assets/img/color-pour-icon.webp",
+      "hero": "assets/img/color-pour-keyart.webp",
+      "banner": "assets/img/color-pour-feature.webp",
+      "shareImage": "assets/img/color-pour-share.jpg",
+      "accent": "#FF9F1C",
+      "packageId": "com.colorpour.game",
+      "playUrl": "",
+      "status": "coming-soon",
+      "age": "",
+      "platforms": "Android",
+      "extraPrivacy": "",
+      "faq": [
+        [
+          "The sand turned into mud.",
+          "A wrong color got into a jar. Your lines are kept, so nudge one and pour again."
+        ],
+        [
+          "How do I move my progress to a new phone?",
+          "Choose \"Sign in with Google\" in the game on your old phone, then sign in with the same account on the new one."
+        ],
+        [
+          "How do I delete my data?",
+          "Email us with the words \"delete my Color Pour data\" and, if you signed in, the Google account you used. We delete it within 30 days."
+        ]
+      ],
+      "heroTall": true,
+      "video": "assets/video/color-pour-demo.mp4",
+      "videoPoster": "assets/video/color-pour-demo-poster.jpg",
+      "videoCaption": "Draw a ramp, pour the sand, and watch the jars cheer. Real gameplay, recorded straight from the game.",
+      "accounts": "Optional (Sign in with Google)",
+      "progress": "On your phone, backed up to the cloud",
+      "notifications": true,
+      "deleteByEmail": true,
+      "dataTable": [
+        [
+          "A random player ID created on your phone",
+          "To save your progress and back it up",
+          "Google Firebase (our storage provider)"
+        ],
+        [
+          "Game progress: stars, levels, drops, unlocked items, settings, daily streak",
+          "To keep your progress and show rankings",
+          "Google Firebase"
+        ],
+        [
+          "Your Google name, only if you choose \"Sign in with Google\"",
+          "To move your progress to a new phone and show your name in rankings",
+          "Google Firebase"
+        ],
+        [
+          "Anonymous level statistics (for example \"solved by 34% of players\")",
+          "To show how hard a level is and to improve levels",
+          "Google Firebase"
+        ],
+        [
+          "App usage events and crash reports",
+          "To find levels that are too hard and fix crashes",
+          "Google Firebase Analytics and Crashlytics"
+        ],
+        [
+          "Advertising ID and device information",
+          "To show ads that pay for the game",
+          "Google AdMob"
+        ]
+      ]
+    }
+  ]
+}
