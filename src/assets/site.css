@@ -319,3 +319,11 @@ ul.facts.enter { display: flex; }
 
 /* entering pieces slide in from the side: never let them widen the page */
 main { overflow-x: hidden; overflow-x: clip; }
+
+/* screenshot gallery */
+.shots { padding-block: 8px 56px; }
+.shots h2 { font-size: 28px; margin: 4px 0 18px; }
+.shots-row { display: flex; gap: 20px; overflow-x: auto; scroll-snap-type: x proximity; padding: 4px 10px 22px 4px; margin-inline: -4px; }
+.shots-row figure { flex: none; width: min(220px, 62vw); margin: 0; scroll-snap-align: start; }
+.shots-row img { display: block; width: 100%; height: auto; aspect-ratio: 9 / 16; object-fit: cover; border: 3px solid var(--line); border-radius: 26px; box-shadow: 6px 6px 0 var(--shadow); background: var(--wash); }
+.shots-row figcaption { margin-top: 12px; font-weight: 800; font-size: 14px; text-align: center; color: var(--muted); }

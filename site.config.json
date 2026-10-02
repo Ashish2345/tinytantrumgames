@@ -8,7 +8,7 @@
   "email": "support@tinytantrumgames.com",
   "admobPublisherId": "pub-3302799747819205",
   "googlePlayDeveloperUrl": "",
-  "policyUpdated": "2026-09-28",
+  "policyUpdated": "2026-10-02",
   "games": [
     {
       "slug": "snack-stuck",
@@ -141,6 +141,88 @@
           "Google AdMob"
         ]
       ]
+    },
+    {
+      "slug": "meowtiply",
+      "name": "Meowtiply",
+      "storeName": "Meowtiply: Cat Swarm Run",
+      "tagline": "Multiply your cats, pick the right gates and smash giant robo bosses with laser eyes.",
+      "description": [
+        "Start with one cat. Swipe through math gates to multiply your swarm, and end up with ten thousand. Fire laser eyes at cube walls, beat greedy dog packs and take down giant robo bosses with a tidal wave of cats.",
+        "Pick the better gate every time: plus, times, minus or divide. Grab weapons, dodge beach balls and falling meteors, then watch your swarm stack into a living cat tower at the finish for up to five times the rewards."
+      ],
+      "features": [
+        "One finger, one minute a level",
+        "70 levels across 7 worlds, from a sunny village to a moon base",
+        "Giant cube bosses every 5 levels",
+        "12 cat breeds to collect, and the whole swarm wears the coat",
+        "A free cat every few wins and a daily gift that grows each day",
+        "Plays offline, no account needed"
+      ],
+      "icon": "assets/img/meowtiply-icon.webp",
+      "hero": "assets/img/meowtiply-keyart.webp",
+      "heroTall": true,
+      "banner": "assets/img/meowtiply-feature.webp",
+      "shareImage": "assets/img/meowtiply-share.jpg",
+      "video": "assets/video/meowtiply-demo.mp4",
+      "videoPoster": "assets/video/meowtiply-demo-poster.jpg",
+      "videoCaption": "Start with one cat, pick the right gates and end with thousands. Real gameplay, recorded straight from the game.",
+      "screenshots": [
+        [
+          "assets/img/meowtiply-shot-multiply.webp",
+          "Pick the biggest gate"
+        ],
+        [
+          "assets/img/meowtiply-shot-lasers.webp",
+          "Laser eyes smash cube walls"
+        ],
+        [
+          "assets/img/meowtiply-shot-boss.webp",
+          "Take down giant bosses"
+        ],
+        [
+          "assets/img/meowtiply-shot-tower.webp",
+          "Climb the cat tower"
+        ],
+        [
+          "assets/img/meowtiply-shot-collect.webp",
+          "Collect 12 cat breeds"
+        ],
+        [
+          "assets/img/meowtiply-shot-worlds.webp",
+          "Run through 7 worlds"
+        ]
+      ],
+      "accent": "#FF8A1F",
+      "packageId": "com.meowtiply.game",
+      "playUrl": "",
+      "status": "coming-soon",
+      "age": "13+",
+      "platforms": "Android",
+      "extraPrivacy": "",
+      "faq": [
+        [
+          "I lost my progress.",
+          "Progress is saved only on your phone. Uninstalling the game or clearing its data deletes it, and we cannot restore it."
+        ],
+        [
+          "The ad for a bonus didn't give me anything.",
+          "The reward is given when the ad finishes. If you close it early or it fails to load, try again in a moment."
+        ],
+        [
+          "Can I play offline?",
+          "Yes. Ads need a connection, but the game itself works offline."
+        ],
+        [
+          "Where is the privacy choice for ads?",
+          "In Settings, tap Privacy settings (shown where the law requires it) to change your ad consent at any time."
+        ]
+      ],
+      "accounts": "None needed",
+      "progress": "Saved on your phone only",
+      "dataTable": null,
+      "notifications": false,
+      "deleteByEmail": false
     }
   ]
 }

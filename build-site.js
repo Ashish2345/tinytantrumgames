@@ -205,6 +205,11 @@ ${g.video ? `<section class="demo" id="trailer">
     <div class="cta">${playBtn(g)}</div>
   </div>
 </section>` : ''}
+${(g.screenshots || []).length ? `<section class="shots" id="screenshots">
+  <p class="label">Screenshots</p>
+  <h2>Take a peek</h2>
+  <div class="shots-row">${g.screenshots.map(([src, cap]) => `<figure><img src="${L(src)}" alt="${esc(g.name)}: ${esc(cap)}" width="432" height="768" loading="lazy"><figcaption>${esc(cap)}</figcaption></figure>`).join('')}</div>
+</section>` : ''}
 <section class="game-body">
   <div class="prose">
     <h2>About the game</h2>
